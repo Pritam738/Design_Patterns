@@ -49,6 +49,11 @@ sorted_data = sorter.sort_data(data)
 ```
 
 ---
+SortStrategy = Strategy (interface/abstract class)
+
+BubbleSort, QuickSort = Concrete Strategies
+
+DataSorter = Context
 
 ## Why Not Just Instantiate Strategy Directly?
 
